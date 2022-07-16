@@ -15,23 +15,33 @@ Example config in "multiterminal.json" file
 
 ## Features
 
+   * Start seperate terminals
    * Split terminals for better readability
-   * Split terminals for better readability
+   * Stop terminals
+
+   ![alt text](./images/buttons.png "Title")
 
 ## Commands in palette
 
     MultiTerminal Start
     MultiTerminal Split
+    MultiTerminal Stop
 
 ## Release Notes
 
 ### 1.0.0
 
-Initial release of MultiTerminal
+- Initial release of MultiTerminal
 
 ### 1.0.1
 
-Added Setup Example
+- Added Setup Example
+
+### 1.1.0
+
+- Added Stop command
+- refactoring of code
+- checks for config
 
 -----------------------------------------------------------------------------------------------------------
 

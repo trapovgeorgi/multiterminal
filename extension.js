@@ -1,12 +1,9 @@
-const vscode = require("vscode");
 const { startTerminals, splitTerminals, stopTerminals } = require("./helpers/terminal");
 const { createStatusBarStartButton, createStatusBarSplitButton, createStatusBarStopButton } = require("./helpers/views");
 
 let terminals = []
 
 function activate(context) {
-	console.log('Congratulations, your extension "multiterminal" is now active!');
-
 	createStatusBarStartButton()
 	createStatusBarSplitButton()
 	createStatusBarStopButton()
