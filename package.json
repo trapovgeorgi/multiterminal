@@ -3,8 +3,9 @@
 	"publisher": "trapovgeorgi",
 	"displayName": "MultiTerminal",
 	"repository": "https://github.com/trapovgeorgi/multiterminal.git",
-	"description": "",
-	"version": "1.0.1",
+	"description": "Terminal Automation",
+	"version": "1.1.0",
+	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.69.0"
 	},
